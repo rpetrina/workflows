@@ -25,3 +25,4 @@ jobs:
           app: ${{ github.event.client_payload.app }}
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
+          force: true
